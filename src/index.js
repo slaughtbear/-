@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react' // Biblioteca de React
+import ReactDOM from 'react-dom/client' // Biblioteca de React que manipula el DOM
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Elemento raíz para inicializar una app en React
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+function Componente(){
+    return <h1>Hola Mundo</h1>
+}
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <Componente/>
+)
