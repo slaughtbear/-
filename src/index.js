@@ -1,17 +1,22 @@
 import React from "react"; // Biblioteca de React
 import ReactDOM from "react-dom/client"; // Biblioteca de React que manipula el DOM
 import "./index.css"; // Estilos de tailwind
-import NabVar from "./react/NavBar";
 import Boton from "./react/Boton";
-// import Ejemplo from "./react/Ejemplo"
+import NavBar from "./react/NavBar";
 
 // Elemento raíz para inicializar una app en React
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+//Función de evento onChange
+const handleChange = (e) => {
+  console.log(e.target.value);
+};
+
 root.render(
   <>
-    <Boton/>
-    <Boton/>
-    <Boton usuario="Iván"/>
+    <NavBar />
+    <Boton usuario="Ivan" />
+    <label>Input</label>
+    <input onChange={handleChange} />
   </>
 );

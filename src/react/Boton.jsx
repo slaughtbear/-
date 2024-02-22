@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 
 function Boton({usuario}){
-    return <button>
+    return <button onClick={function(){
+        console.log("Hola Mundo")
+    }}>
         {usuario}
     </button>
 }
