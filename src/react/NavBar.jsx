@@ -1,7 +1,7 @@
 function NavBar() {
   return (
-    <nav className="bg-slate-950 text-purple-300">
-      <div className="max-w-6x1 mx-auto px-4">
+    <nav className="bg-black-800 text-teal-300">
+      <div className="max-w-6x1 mx-auto px-4 py-2">
         <div className="flex justify-between">
           <div className="flex space-x-4">
             <a href="youtube.com" className="flex items-center py-2 px-2">
@@ -9,7 +9,7 @@ function NavBar() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-7 h-7 mr-2 hover:text-white hover:cursor-pointer"
+                className="w-7 h-7 mr-2 hover:text-teal-100 hover:cursor-pointer"
               >
                 <path
                   fillRule="evenodd"
@@ -17,14 +17,13 @@ function NavBar() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="hover:text-white">MusicBox</span>
             </a>
           </div>
           <div className="hidden md:flex items-center space-x-1">
-            <a href="x" className="py-5 px-3 hover:text-white">
+            <a href="x" className="py-5 px-3 hover:text-teal-100">
               Reseñas
             </a>
-            <a href="x" className="py-5 px-3 hover:text-white">
+            <a href="x" className="py-5 px-3 hover:text-teal-100">
               Lanzamientos
             </a>
           </div>
@@ -47,10 +46,10 @@ function NavBar() {
         </div>
       </div>
       <div className="mobile-menu hidden">
-        <a href="x" className="block py-2 text-sm hover:text-white">
+        <a href="x" className="block py-2 text-sm hover:text-teal-100">
           Reseñas
         </a>
-        <a href="x" className="block py-2 text-sm hover:text-white">
+        <a href="x" className="block py-2 text-sm hover:text-teal-100">
           Lanzamientos
         </a>
       </div>

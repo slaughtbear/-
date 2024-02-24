@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 
+
 function Boton({usuario}){
     return <button onClick={function(){
         console.log("Hola Mundo")
@@ -15,6 +16,5 @@ Boton.propTypes = {
 Boton.defaultProps = {
     usuario: "User"
 }
-
 
 export default Boton
