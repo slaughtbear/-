@@ -6,26 +6,21 @@ function Banner() {
           <h1 className="bg-gradient-to-r from-teal-200 via-teal-400 to-teal-500 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
             H I K A R I 光
           </h1>
-          <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+          <p className="mx-auto italic font-semibold mt-4 max-w-xl sm:text-xl/relaxed">
             Explorando el arte de la música, un disco a la vez.
-            <br></br>Lee nuestras reseñas para desentrañar las historias detrás
-            de tú música favorita y descubrir nuevos sonidos que transformarán
-            tu experiencia auditiva.
+          </p>
+          <p className="mx-auto max-w-xl sm:text-xl/relaxed">
+            Lee nuestras reseñas para desentrañar las historias detrás de tú
+            música favorita y descubrir nuevos sonidos que transformarán tu
+            experiencia auditiva.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <a
-              className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              className="block w-full rounded border border-teal-300 px-12 py-3 text-sm font-medium text-white hover:bg-teal-300 focus:outline-none focus:ring active:bg-teal-200 hover:text-black-900 sm:w-auto"
               href="y"
             >
-              Get Started
-            </a>
-
-            <a
-              className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-              href="y"
-            >
-              Learn More
+              Conocenos
             </a>
           </div>
         </div>
