@@ -15,10 +15,10 @@ function Home() {
         </h1>
       </div>
       <div className="flex flex-wrap place-content-around text-white sm: gap-6">
-        <Card id="1" artista="Metallica" disco="Ride The Lightning" genero="Metal" year="1984" estrellas="4"/>
-        <Card id="2" artista="Nirvana" disco="Nevermind" genero="Rock" year="1991" estrellas="4"/>
-        <Card id="3" artista="System Of A Down" disco="Toxicity" genero="Metal" year="2001" estrellas="4"/>
-        <Card id="4" artista="Tool" disco="10,000 Days" genero="Metal" year="2005" estrellas="3"/>
+        <Card artista="Metallica" disco="Ride The Lightning" genero="Metal" year="1984" estrellas="4" imagenURL="https://m.media-amazon.com/images/I/6113DHPqk7L._UF1000,1000_QL80_.jpg"/>
+        <Card artista="Nirvana" disco="Nevermind" genero="Rock" year="1991" estrellas="4" imagenURL="https://m.media-amazon.com/images/I/71DQrKpImPL._UF1000,1000_QL80_.jpg"/>
+        <Card artista="System Of A Down" disco="Toxicity" genero="Metal" year="2001" estrellas="4" imagenURL="https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg"/>
+        <Card artista="Tool" disco="10,000 Days" genero="Metal" year="2005" estrellas="3" imagenURL="https://i0.wp.com/yourlastrites.com/wp-content/uploads/2017/07/tool10000days.jpg?fit=1000%2C1000&ssl=1"/>
       </div>
       <Footer/>
       <Outlet />

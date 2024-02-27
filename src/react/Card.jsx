@@ -13,17 +13,17 @@ Card.defaultProps = {
   estrellas: "0/5",
 };
 
-function Card({ id, artista, disco, genero, year, estrellas }) {
+function Card({ artista, disco, genero, year, estrellas, imagenURL }) {
   return (
     <div className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
       <div>
         <div>
           <Fav />
         </div>
-        <Link to={`/Post/${id}/${artista}/${disco}/${genero}/${year}/${estrellas}`}>
+        <Link to={`/Post/${artista}/${disco}/${genero}/${year}/${estrellas}`}>
           <img
             alt=""
-            src="https://m.media-amazon.com/images/I/6113DHPqk7L._UF1000,1000_QL80_.jpg"
+            src={imagenURL}
             className="h-56 w-full rounded-md object-cover"
           />
         </Link>

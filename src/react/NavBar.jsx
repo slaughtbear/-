@@ -1,4 +1,5 @@
 import { FaToriiGate } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -6,9 +7,9 @@ function NavBar() {
       <div className="max-w-6x1 mx-auto px-4 py-2">
         <div className="flex justify-between">
           <div className="flex space-x-4">
-            <a href="youtube.com" className="flex items-center py-2 px-2">
-              <FaToriiGate className="w-6 h-6" />
-            </a>
+            <div className="flex items-center py-2 px-2">
+            <Link to="/"><FaToriiGate className="w-6 h-6" /></Link>
+            </div>
           </div>
           <div className="hidden md:flex items-center space-x-1">
             <a href="x" className="py-5 px-3 hover:text-teal-100">

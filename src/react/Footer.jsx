@@ -9,7 +9,7 @@ function Footer() {
             <FaToriiGate className="w-6 h-6 text-teal-300"/>
           </div>
 
-          <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+          <p className="text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
             Copyright &copy; 2024. All rights reserved.
           </p>
         </div>
