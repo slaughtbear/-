@@ -3,14 +3,14 @@ import { Routes, Route } from "react-router-dom";
 
 
 import Home from "./react/Home.jsx";
-import Disco from "./pages/Disco.jsx"
+import Post from "./pages/Post.jsx"
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/Disco" element={<Disco/>}/>
+        <Route path="/Post/:id/:artista/:disco/:genero/:year/:estrellas" element={<Post/>}/>
       </Routes>
     </div>
   );

@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Banner from "./Banner";
 import Card from "./Card";
+import Footer from "./Footer"
 import { Outlet } from "react-router-dom";
 
 function Home() {
@@ -14,11 +15,12 @@ function Home() {
         </h1>
       </div>
       <div className="flex flex-wrap place-content-around text-white sm: gap-6">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card id="1" artista="Metallica" disco="Ride The Lightning" genero="Metal" year="1984" estrellas="4"/>
+        <Card id="2" artista="Nirvana" disco="Nevermind" genero="Rock" year="1991" estrellas="4"/>
+        <Card id="3" artista="System Of A Down" disco="Toxicity" genero="Metal" year="2001" estrellas="4"/>
+        <Card id="4" artista="Tool" disco="10,000 Days" genero="Metal" year="2005" estrellas="3"/>
       </div>
+      <Footer/>
       <Outlet />
     </div>
   );
