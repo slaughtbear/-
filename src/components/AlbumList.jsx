@@ -14,8 +14,9 @@ function AlbumList() {
 
   return (
     <div className="flex flex-wrap place-content-around text-white sm: gap-6">
-      <Card albums={albums}/>
+      <Card albums={albums} />
     </div>
   );
 }
+
 export default AlbumList;

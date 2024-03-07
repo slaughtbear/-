@@ -1,9 +1,9 @@
 import NavBar from "./interface/NavBar";
 import Banner from "./interface/Banner";
-import Card from "./interface/Card";
 import Footer from "./interface/Footer"
-import { Outlet } from "react-router-dom";
 import AlbumList from "./components/AlbumList";
+import { Outlet } from "react-router-dom";
+
 
 function Home() {
   return (

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav className="bg-black-800 text-teal-300">
-      <div className="max-w-6x1 mx-auto px-4 py-2">
+      <div className="max-w-6x1 mx-auto px-4 py-4">
         <div className="flex justify-between">
           <div className="flex space-x-4">
             <div className="flex items-center py-2 px-2">
@@ -12,12 +12,9 @@ function NavBar() {
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-1">
-            <a href="x" className="py-5 px-3 hover:text-teal-100">
-              Reseñas
-            </a>
-            <a href="x" className="py-5 px-3 hover:text-teal-100">
-              Lanzamientos
-            </a>
+            <div className="py-5 px-3 hover:text-teal-100">
+              
+            </div>
           </div>
           <div className="md:hidden flex items-center">
             <button className="mobile-menu-button">

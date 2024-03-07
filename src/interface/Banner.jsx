@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Banner() {
   return (
     <section className=" text-white">
@@ -16,12 +18,11 @@ function Banner() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <a
-              className="block w-full rounded border border-teal-300 px-12 py-3 text-sm font-medium text-white hover:bg-teal-300 focus:outline-none focus:ring active:bg-teal-200 hover:text-black-900 sm:w-auto"
-              href="y"
-            >
+            <Link to="https://www.instagram.com/1van.aguirre/">
+            <div className="block w-full rounded border border-teal-300 px-12 py-3 text-sm font-medium text-white hover:bg-teal-300 focus:outline-none focus:ring active:bg-teal-200 hover:text-black-900 sm:w-auto">
               Conocenos
-            </a>
+            </div>
+            </Link>
           </div>
         </div>
       </div>

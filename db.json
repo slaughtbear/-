@@ -8,7 +8,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/91xDlj--xjL.__AC_SX300_SY300_QL70_ML2_.jpg",
       "stars": "4/5",
       "genre": "Rap",
-      "description": "lorem ipsum"
+      "description": "The Infamous es el segundo álbum de estudio del dúo de hip-hop Mobb Deep, lanzado en 1995. Este influyente álbum es aclamado por su representación cruda y sin filtros de la vida en las calles de Nueva York. Prodigy y Havoc, los miembros de Mobb Deep, crearon un sonido oscuro y atmosférico que captura la dureza de la realidad urbana. El álbum presenta letras introspectivas y gráficas que exploran la violencia, la delincuencia y la desconfianza en la sociedad. El distintivo uso de samples y la producción hábil de Havoc contribuyen a la creación de un ambiente sombrío y tenso en todo el álbum. The Infamous se ha convertido en un clásico del hip-hop de la Costa Este, con pistas como Shook Ones Pt. II y Survival of the Fittest que se consideran himnos del género. La combinación de letras impactantes y producción magistral cimenta la posición de Mobb Deep como una de las fuerzas más importantes en la escena del hip-hop de la década de 1990."
     },
     {
       "id": 2,
@@ -16,19 +16,19 @@
       "artist": "Eminem",
       "year": "2000",
       "imageUrl": "https://m.media-amazon.com/images/I/81e5qfvGI7L._UF1000,1000_QL80_.jpg",
-      "stars": "3/5",
+      "stars": "4/5",
       "genre": "Rap",
-      "description": "lorem ipsum"
+      "description": "The Marshall Mathers LP es el tercer álbum de estudio del rapero Eminem, lanzado en el año 2000. Este álbum marcó un hito en la carrera de Eminem y en la historia del hip-hop, convirtiéndose en un clásico instantáneo. El álbum exhibe la habilidad lírica única de Eminem, combinada con su agresiva entrega y un ingenioso sentido del humor. Producido en gran parte por Dr. Dre, el álbum presenta pistas que abordan temas controversiales, como la fama, la crítica de los medios de comunicación, la relación con su madre y la discriminación racial. The Real Slim Shady y Stan son sencillos destacados que ayudaron a catapultar la carrera de Eminem a la cima de la industria musical. La aguda narrativa y la honestidad brutal de Eminem, junto con la producción innovadora, contribuyeron a que The Marshall Mathers LP se ganara el reconocimiento crítico y comercial. El álbum no solo consolidó la posición de Eminem como uno de los artistas más influyentes del hip-hop, sino que también desafió los límites del género y dejó una marca duradera en la cultura musical."
     },
     {
       "id": 3,
       "name": "All Eyez on Me",
       "artist": "2Pac",
       "year": "1996",
-      "imageUrl": "https://cdn.shoplightspeed.com/shops/634895/files/21071180/1600x2048x2/2pac-all-eyez-on-me-2021-remaster-4lp.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/61+qKiRPXlL._UF1000,1000_QL80_.jpg",
       "stars": "4/5",
       "genre": "Rap",
-      "description": "lorem ipsum"
+      "description": "All Eyez On Me es el cuarto álbum de estudio del legendario rapero 2Pac, lanzado en 1996. Este álbum doble es una obra maestra que refleja la intensidad y el talento innato de 2Pac. Conocido por su estilo apasionado y letras conmovedoras, 2Pac aborda temas como la vida en las calles, la desconfianza y la lucha contra la adversidad. Producido por una variedad de talentosos productores, All Eyez On Me presenta un sonido diverso que va desde pistas de fiesta hasta canciones más reflexivas. Con sencillos como California Love y How Do U Want It, el álbum se convirtió en un éxito comercial y dejó una marca duradera en la cultura del hip-hop. All Eyez On Me también es conocido por la apertura personal de 2Pac sobre su vida, desafíos y su posición en la industria de la música. Este álbum consolidó a 2Pac como una figura icónica en el hip-hop, y su impacto perdura hasta hoy."
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "imageUrl": "https://m.media-amazon.com/images/I/51pil+A8wQL._UF1000,1000_QL80_.jpg",
       "stars": "4/5",
       "genre": "Rap",
-      "description": "lorem ipsum"
+      "description": "Ready to Die es el álbum debut del influyente rapero The Notorious B.I.G., lanzado en 1994. Este clásico del hip-hop captura la esencia del estilo distintivo de Biggie, combinando letras agudas, narrativas convincentes y un carisma innegable. Producido por una variedad de talentosos productores de la época, el álbum presenta un sonido único que fusiona elementos de rap clásico con toques contemporáneos. Biggie aborda temas como la violencia urbana, las luchas personales y la búsqueda del éxito en la industria musical. Sencillos notables como Juicy y Big Poppa catapultaron la carrera de Biggie a nuevas alturas, convirtiéndolo en una figura destacada en la escena del hip-hop de la Costa Este. Ready to Die es apreciado por su autenticidad y su capacidad para conectar con la audiencia a través de las experiencias de Biggie. Su legado perdura como uno de los álbumes más icónicos y reverenciados en la historia del hip-hop."
     }
   ]
 }
