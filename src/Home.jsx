@@ -3,7 +3,7 @@ import Banner from "./interface/Banner";
 import Card from "./interface/Card";
 import Footer from "./interface/Footer"
 import { Outlet } from "react-router-dom";
-import AlbumList from "./components/AlbumList"
+import AlbumList from "./components/AlbumList";
 
 function Home() {
   return (
