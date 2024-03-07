@@ -1,0 +1,44 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "name": "The Infamous",
+      "artist": "Mobb Deep",
+      "year": "1995",
+      "imageUrl": "https://m.media-amazon.com/images/I/91xDlj--xjL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "stars": "4/5",
+      "genre": "Rap",
+      "description": "lorem ipsum"
+    },
+    {
+      "id": 2,
+      "name": "The Marshall Mathers LP",
+      "artist": "Eminem",
+      "year": "2000",
+      "imageUrl": "https://m.media-amazon.com/images/I/81e5qfvGI7L._UF1000,1000_QL80_.jpg",
+      "stars": "3/5",
+      "genre": "Rap",
+      "description": "lorem ipsum"
+    },
+    {
+      "id": 3,
+      "name": "2Pac All Eyez on Me",
+      "artist": "2Pac",
+      "year": "1996",
+      "imageUrl": "",
+      "stars": "4/5",
+      "genre": "Rap",
+      "description": "lorem ipsum"
+    },
+    {
+      "id": 4,
+      "name": "Biggie - Ready to Die",
+      "artist": "The Notorious B.I.G.",
+      "year": "1994",
+      "imageUrl": "",
+      "stars": "4/5",
+      "genre": "Rap",
+      "description": "lorem ipsum"
+    }
+  ]
+}
