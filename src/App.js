@@ -2,8 +2,8 @@ import "./index.css"; // Estilos de tailwind
 import { Routes, Route } from "react-router-dom";
 
 
-import Home from "./react/Home.jsx";
-import Post from "./pages/Post.jsx"
+import Home from "./Home.jsx";
+import Post from "./interface/Post.jsx"
 
 function App() {
   return (

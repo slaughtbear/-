@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import NavBar from "../react/NavBar";
-import Footer from "../react/Footer";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 import { FaCompactDisc } from "react-icons/fa6";
 import { FaRegCalendarDays } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa6";

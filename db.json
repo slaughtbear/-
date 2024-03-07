@@ -22,20 +22,20 @@
     },
     {
       "id": 3,
-      "name": "2Pac All Eyez on Me",
+      "name": "All Eyez on Me",
       "artist": "2Pac",
       "year": "1996",
-      "imageUrl": "",
+      "imageUrl": "https://cdn.shoplightspeed.com/shops/634895/files/21071180/1600x2048x2/2pac-all-eyez-on-me-2021-remaster-4lp.jpg",
       "stars": "4/5",
       "genre": "Rap",
       "description": "lorem ipsum"
     },
     {
       "id": 4,
-      "name": "Biggie - Ready to Die",
+      "name": "Ready to Die",
       "artist": "The Notorious B.I.G.",
       "year": "1994",
-      "imageUrl": "",
+      "imageUrl": "https://m.media-amazon.com/images/I/51pil+A8wQL._UF1000,1000_QL80_.jpg",
       "stars": "4/5",
       "genre": "Rap",
       "description": "lorem ipsum"
